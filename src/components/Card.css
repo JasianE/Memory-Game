@@ -1,0 +1,17 @@
+.card{
+    background-color: lightgreen;
+    border-radius: 1%;
+    border-style: solid;
+    max-width: 20%;
+    max-height: 10%;
+    padding: 0.5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    float: left;
+}
+img{
+    width: 23em;
+    height: 20em;
+    object-fit: cover;
+}
