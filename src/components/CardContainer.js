@@ -74,9 +74,11 @@ function CardContainer(props){
 
 
     useEffect(() => {
-        const newCards = [...cards]
-        randomizer(newCards)
-        setCard(newCards)
+        setCard(prevCards => {
+            const newCards = [...prevCards]
+            randomizer(newCards)
+            return newCards
+        })
     }, [score, highScore])
 
     return(
