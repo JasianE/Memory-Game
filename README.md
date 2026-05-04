@@ -4,6 +4,8 @@ A browser-based memory card game built as part of The Odin Project. The goal is 
 
 ## Overview
 
+Live Link: https://memory-game-k8y72xf2i-derek-chens-projects-0fa289f3.vercel.app/
+
 This project focuses on building interactive UI with JavaScript and managing state through user interactions. It reinforces concepts like event handling, DOM manipulation, and game logic.
 
 ## Tech Stack
