@@ -11,7 +11,9 @@
     float: left;
 }
 img{
-    width: 23em;
-    height: 20em;
+    width: 100%;
+    height: auto;
+    max-height: 100%;
     object-fit: cover;
+    display: block;
 }
